@@ -1,0 +1,25 @@
+.example1 {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 45px;
+ }
+ .hello {
+    color: #9b2948;
+      font-size: 108px;
+      text-shadow: 6px 0px 10px #ffca7b,
+      -2px 0px 6px grey;;
+ }
+ .summer{
+ font-size: 108px;  
+      padding-left: 60px;
+      color: #ff7251;
+      text-shadow: -2px 0px 3px #ffcd74,
+      6px 0px 10px grey;
+ 
+ }
+ .sun {
+   position: absolute;
+   left: 167px;
+   top: 0px;
+   color: red;
+ }

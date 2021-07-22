@@ -1,0 +1,64 @@
+.example1 {
+    z-index: 0;
+    background-color: white;
+    margin-top: 120px;
+    margin-left: 280px;
+   }
+
+.hello {
+  z-index: 1;
+    position:relative;
+    font-family: beach, sans-serif;
+     color: #9b2948;
+     font-size: 108px;
+     text-shadow: 2px 2px 10px #ffca7b,
+     -2px 2px 6px grey;;
+   }
+
+   .summer{ 
+    z-index: 1;
+     position:relative;
+     margin-top: 170px;
+     padding-top: 0;
+    font-family: palms, sans-serif;
+     font-size: 108px;  
+     padding-left: 170px;
+     padding-right: 90px;
+     color: #ff7251;
+     text-shadow: 2px -6px 3px #ffcd74,
+     -2px 6px 10px grey;
+   }
+   .sun {
+     z-index: 2;
+     position: absolute;
+     left: 930px;
+     top: 258px;
+     opacity: 70%;
+     filter: blur(4px);
+     
+   }
+
+
+ #canvas {
+     top: 0;
+     left: 0;
+     z-index: 1;
+     
+     position: absolute;
+     background: #33CCFF;
+     filter: blur(4px);
+   }
+
+   /* fonts */
+
+   @font-face {
+    font-family: palms;
+    src: url(Palm_Beach.ttf);
+}
+   
+   @font-face {
+    font-family: beach;
+    src: url(summer_vibes.otf);
+}
+
+   

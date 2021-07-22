@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Hello Summer</title>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class= "example1">
+        <span class="hello">
+          Hell   
+        </span>
+        <span class="sun">
+        <svg >
+            <defs>
+                <filter id="distortionFilter">
+                    <feTurbulence id="turbolence" type="fractalNoise" baseFrequency="50" numOctaves="10" seed="100" stitchTiles="noStitch" x="0%" y="0%" width="100%" height="100%" result="noise"></feTurbulence>
+                    <feDisplacementMap in="SourceGraphic" in2="noise" scale="19" xChannelSelector="R" yChannelSelector="B" x="0%" y="0%" width="100%" height="100%" filterUnits="userSpaceOnUse"></feDisplacementMap>
+                    <animate xlink:href="#turbolence" attributeName="baseFrequency" dur="20s" keyTimes="0;0.5;1" values="5;5.1;5;" repeatCount="indefinite"></animate>
+                </filter>
+            </defs>
+            <circle cx="100" cy="100" r="25" fill="#ffcc5c"    filter="url(#distortionFilter)"></circle>
+        </svg>
+        </span>
+        <span class="summer" >
+          Summer...
+            </span>
+    </div>
+  <!-- end -->
+</body>
+</html>
