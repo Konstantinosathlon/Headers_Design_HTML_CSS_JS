@@ -1,4 +1,4 @@
-# Headers_Design_HTML_CSS_JS
+# Header_Design_HTML_CSS_JS
 
 ## hello_sum_palms_hero
 
